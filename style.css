@@ -1,0 +1,99 @@
+.container{
+    width: 80%;
+    height: 110vh;
+    margin: auto;
+    display: grid;
+ 
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "item1 item1 item1 item1"
+    "item1 item1 item1 item1"
+    "item1 item1 item1 item1"
+    "item1 item1 item1 item1"
+    "item1 item1 item1 item1"
+     "item2 item3 item4 item5"
+     "item2 item6 item4 item5"
+     "item2 item6 item4 item5"
+     "item2 item6 item7 item5"
+     "item2 item6 item8 item9"
+    ;
+
+}
+ 
+ 
+.item1{
+    grid-area: item1;
+    background:url(https://cdn.pixabay.com/photo/2021/09/13/08/18/blue-flower-6620619_640.jpg);
+    background-position: center 30%;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    
+    
+}
+ 
+.item2{
+    grid-area: item2;
+    background:url(https://cdn.pixabay.com/photo/2024/02/27/00/13/heliconia-8599119_640.jpg);
+    display: grid;
+    place-content: center;
+}
+.item3{
+    grid-area: item3;
+    background:url(https://cdn.pixabay.com/photo/2015/08/05/21/22/silver-bordered-fritillary-877121_640.jpg);
+  background-size: cover;
+    display: grid;
+    place-content: center;
+    color: antiquewhite;
+}
+.item4{
+    grid-area: item4;
+    background: url(https://cdn.pixabay.com/photo/2023/09/10/00/49/lovebird-8244066_960_720.jpg);
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+.item5{
+    grid-area: item5;
+    background:url(https://cdn.pixabay.com/photo/2023/05/18/18/12/butterfly-8002932_640.jpg);
+    display: grid;
+    place-content: center;
+}
+.item6{
+    grid-area: item6;
+    background:url(https://cdn.pixabay.com/photo/2023/10/02/05/29/flowers-8288492_640.jpg);
+   background-size: cover;
+   background-position: center;
+
+    display: grid;
+    place-content: center;
+}
+.item7{
+    grid-area: item7;
+    background:url(https://cdn.pixabay.com/photo/2023/03/19/16/15/butterfly-7862893_640.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-position: center;
+
+    display: grid;
+    place-content: center;
+}
+.item8{
+    grid-area: item8;
+    background:url(https://cdn.pixabay.com/photo/2024/04/20/19/28/peach-blossoms-8709256_640.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    place-content: center;
+}
+.item9{
+    grid-area: item9;
+    background:url(https://media.istockphoto.com/id/512695102/photo/orange-butterflies-drinking-nectar-on-a-green-floral-backgroung.webp?b=1&s=612x612&w=0&k=20&c=ja5QdRw-aYH1yXE3-PA5vYRO_hmtYuEOItS7lflEP8U=);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}
